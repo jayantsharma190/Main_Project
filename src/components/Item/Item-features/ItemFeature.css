@@ -1,0 +1,55 @@
+
+
+.item-feature-container
+{
+    margin: 12px 0px ;
+}
+
+.common-area-amenties
+{
+    margin: 12px 0px ;
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 3px -2px, rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
+}
+
+.common-amenties
+{
+    display: grid;
+}
+
+.img-icon-type-style
+{
+    height: 60px;
+    object-fit: contain;
+}
+
+.common-amenties-label
+{
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.img-icon-name
+{
+    font-size: 20px;
+    margin-top: 4px;
+}
+.common-icons-grid
+{
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+}
+.services-available-container,.food-provided-container,.pg-rules-container
+{
+    margin: 12px 0px ;
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 3px -2px, rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
+}
+
+.pg-rules,.food-provided,.services-available
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+}
+
+

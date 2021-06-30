@@ -1,0 +1,7 @@
+.my_slider_img img
+{
+    width: 100%;
+    max-height: 580px;
+    z-index: -1;
+    background:fixed;
+}

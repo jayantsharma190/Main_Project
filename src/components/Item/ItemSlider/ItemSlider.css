@@ -1,0 +1,13 @@
+
+
+
+
+@media all and (min-width:800px) {
+    .carousel .slide img {
+        /* width: 800px !important; */
+        vertical-align: top;
+        border: 0;
+        height: 600px !important;
+        object-fit: contain !important;
+    }
+}

@@ -1,0 +1,118 @@
+.fresh_items_here
+{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fresh_items_header label
+{
+    height: 10px;
+    width: 250px;
+    background-color: #40bf9f;
+    /* background: linear-gradient(#40bf9f,left,right); */
+    border-top-right-radius: 40px;
+}
+
+.fresh_items_container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+}
+
+.fresh_item_link
+{
+    text-decoration: none !important;
+    color: rgba(0, 0, 0,0.6);
+}
+
+.fresh_item_link:hover
+{
+    color: rgba(0, 0, 0,0.6);
+}
+
+.fresh_item_form
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.fresh_item_form h4
+{
+    border-bottom: 4px solid #267370;
+    /* border-bottom-left-radius: 8px; */
+    /* border-bottom-right-radius: 8px; */
+    /* border-width: 10px; */
+}
+
+.fresh_item_inputBox
+{
+    border: 1px solid #267370;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: white;
+    padding: 10px;
+}
+
+.fresh_item_inputBox input
+{
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.rupee_icon_form
+{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fresh_item_button
+{
+    margin-top: 10px;
+}
+
+.more_btn
+{
+    margin: 0px auto;
+}
+
+.more_btn button
+{
+    padding: 8px 16px;
+    font-size: 20px;
+    border: 1px solid #267370;
+    color: #267370;
+}
+
+.more_btn button:hover
+{
+    background-color: #267370;
+    color: #fff;
+    text-decoration: underline;
+}
+
+@media all and (max-width:900px){
+    .fresh_item_inputBox
+    {
+        flex-direction: column;
+    }
+
+    .fresh_item_inputBox > input
+    {
+        text-align: center;
+    }
+}
+
+@media all and (min-width:900px) {
+    .fresh_items_container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+}
+}

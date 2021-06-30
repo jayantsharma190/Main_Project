@@ -1,0 +1,106 @@
+.pg_register_container
+{
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.para_margin
+{
+    margin: -2px;
+}
+
+.input_common_style
+{
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.pg_r_common
+{
+margin: 20px;
+}
+
+.d-flex1
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pg_r_2_img_common
+{
+    height: 60px;
+    object-fit: cover !important;
+    background-size: cover !important;
+    background-position: fixed !important;
+    background-repeat: no-repeat !important;
+}
+.pg_r_2_radio
+{
+    margin-left: 5px;
+    height: 20px;
+    width: 20px;
+
+}
+.para_margin1
+{
+    margin: 5px;
+}
+
+.pg_r9_radio
+{
+margin-top: 10px !important;
+margin-left: 10px;
+}
+.span-d-flex
+{
+    display: flex;
+    align-items: center;
+}
+
+.pg_r_btn
+{
+    margin-top: 20px;
+}
+
+.submit-btn-form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submit-btn-form > img
+{
+    height: 250px;
+    width: 250px;
+
+}
+
+.back-btn,.submit-btn
+{
+    border: 1px solid black !important;
+    margin:2px !important;
+    width: 200px !important;
+    min-width: 50px !important;
+}
+
+.submit-btn
+{
+    background-color: #267370 !important;
+}
+
+.submit-btn:hover
+{
+    background-color: #267371 !important;
+}
+
+.right_first_button1
+{
+    background-color: #267371 !important;
+
+}

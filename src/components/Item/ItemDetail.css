@@ -1,0 +1,49 @@
+.table-container
+{
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 3px -2px, rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
+}
+
+.pg-main1
+{
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 3px -2px, rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
+    padding: 10px;
+    border-bottom: 10px solid #267370;
+    border-left: 10px solid #267370;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.pg-name
+{
+    font-size: 32px;
+}
+
+.address-common
+{
+    font-size: 20px;
+}
+
+.comments-container
+{
+    margin: 30px 0px;
+}
+
+.comments-form
+{
+    margin: 10px;
+}
+
+
+.comments-form>form>label
+{
+display: block;
+margin: 0px;
+}
+
+.comments-name-input,.comments-value-input
+{
+    width: 100%;
+    display: block;
+    outline: none;
+    margin: 6px 0px;
+}
+

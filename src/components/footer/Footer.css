@@ -1,0 +1,32 @@
+.footer {
+  border-top: 10px solid gray;
+  padding: 20px;
+}
+
+.footer_container {
+  display: flex;
+  align-items: center;
+}
+
+.footer_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+.footer_right_contactLogo {
+  display: flex;
+  align-items: center;
+}
+.footer_left_img {
+  height: 300px;
+}
+
+
+
+@media all and (max-width: 900px) {
+  .footer_container {
+    flex-direction: column;
+  }
+}
